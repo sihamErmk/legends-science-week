@@ -914,6 +914,7 @@ section .title::after{
 .services{
     color:#013376;
     background-image:url(final2.jpg) ;
+    margin-bottom: 0px;
 }
 .teams{
     color:#013376;
@@ -1631,4 +1632,185 @@ footer span a:hover{
     justify-content: space-between;
     align-items: center;
     gap:30px
+  }
+  /*program*/
+ 
+  
+  
+  .heading-1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  
+  .dark-theme {
+    color:#35668F;
+  }
+  
+  .main-theme {
+    color:#ffff;
+  }
+  
+  .light-theme {
+    color: #fff;
+  }
+  
+  .para-0 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+  
+  .para-1 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  
+  .para-2 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .heading-2 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+   
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 26px;
+    font-weight: 700;
+   
+    margin-bottom: 15px;
+  }
+
+  .heading-3 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .box-border-white {
+    border: 2px solid white;
+    padding: 10px 14px;
+  }
+  
+  .background-pattern {
+    
+    background-size: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* programs section */
+  
+  @media only screen and (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: baseline;
+      padding: 0 ;
+    }
+  
+    .heading-3.width {
+      margin: 3vw ;
+      width: 50%;
+      line-height: 90px;
+      
+    }
+  
+    
+  
+    .card {
+      margin: 5px;
+      width: 100%;
+    }
+  
+    .para-conditional {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .card-container {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      flex-direction: column;
+      justify-content: center;
+      margin:5px;
+      width: 200px;
+      height: 220px;
+      color: #35668F;
+      margin-left: 25px;
+      margin-right: 25px;
+      
+    }
+  
+    .para-conditional {
+      height: 50%;
+    }
+  
+    .heading-3 {
+      line-height: 40px;
+    }
+  }
+  
+  .program-details {
+    background: #35668F;
+  }
+  
+  .card-container {
+    display: flex;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.11);
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .hover-frame:hover {
+    border: 1px solid #35668F;
+    box-shadow: 0 0 1px #35668F;
+  }
+  
+  .icon-1 {
+    background: url("./final2.jpg");
+  }
+  
+  .icon-2 {
+    background: url("./src/imgs/icon-6.png");
+  }
+  
+  .icon-3 {
+    background: url("./src/imgs/icon-4.png");
+  }
+  
+  .icon-4 {
+    background: url("./src/imgs/icon-3.png");
+  }
+  
+  .icon-5 {
+    background: url("./src/imgs/icon-1.png");
+  }
+  
+  .icon-6 {
+    background: url("./src/imgs/icon-2.png");
+  }
+
+  
+  
+ 
+  .program-details-link {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 50px 0 20px;
   }
